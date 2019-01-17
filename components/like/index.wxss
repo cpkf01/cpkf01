@@ -1,1 +1,15 @@
 /* components/like/index.wxss */
+.container {
+    
+    /* rpx可以自适应 */
+}
+.container image {
+    height: 28rpx;
+    width: 32rpx;
+}
+
+.container text {
+    /* font-size: 23rpx; */
+    color: #bbbbbb;
+    
+}
