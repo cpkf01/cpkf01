@@ -3,9 +3,9 @@
     "pages/classic/classic"
   ],
   "window":{
-      "navigationBarBackgroundColor" : "#008800",
-      "navigationBarTitleText" : "cpkf01",
-      "navigationBarTextStyle" : "#ffffff",
+      "navigationBarBackgroundColor" : "#ffffff",
+      "navigationBarTitleText" : "桃花源记",
+      "navigationBarTextStyle" : "black",
       "navigationStyle" : "default",
       "backgroundColor" : "#ffffff",
       "enablePullDownRefresh" : false,

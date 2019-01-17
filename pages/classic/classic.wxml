@@ -1,7 +1,1 @@
-<!--pages/classic/classic.wxml-->
-<text class="color4">这是我的第一个小程序kfcp01</text>
-<view class="container">
-  <view class="chunk color1">1</view>
-  <view class="chunk color2">2</view>
-  <view class="chunk color3">3</view>
-</view>
+<like-cmp />
