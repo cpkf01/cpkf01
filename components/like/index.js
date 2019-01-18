@@ -25,6 +25,7 @@ Component({
    */
   methods: {
     onLike: function (args) {
+      // let与var的区别,let是块里生效,快外失效,var是全局
       let like = this.properties.like;
       let count = this.properties.count;
       count = like?count-1:count+1;
