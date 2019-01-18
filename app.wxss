@@ -1,5 +1,5 @@
 /* 全局pages */
 page{
-    font-size: 24rpx;
+    font-size: 32rpx;
     color: #bbbbbb;
 }
