@@ -1,6 +1,6 @@
 /* components/like/index.wxss */
 .container {
-    display: flex;
+    display: inline-flex;/*自适应*/
     flex-direction: row;
     padding: 10rpx;/*设置padding,使数字上面不被遮住*/
     /* rpx可以自适应 */

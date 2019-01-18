@@ -1,5 +1,7 @@
 <!--components/like/index.wxml-->
-<view class="container">
-<image  src="images/like.png" />
-<text>8</text>
+<!-- bind:tap  添加监听事件 -->
+<view bind:tap="onLike" class="container">
+<image  src="{{like?yesSrc:noSrc}}" />
+<!-- 动态传数据 -->
+<text>{{count}}</text>
 </view>
