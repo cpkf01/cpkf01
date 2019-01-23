@@ -1,29 +1,39 @@
 // pages/classic/classic.js
+import {HTTP} from '../../util/http.js';
+let http = new HTTP()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    load:22
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      // url也可以写为'http://bl.7yue.pro/v1/classic/latest?appkey=8hARSMgfuY2ykKws',
-      // 一般appkey写在header里
-      url:'http://bl.7yue.pro/v1/classic/latest',
-      header:{
-        appkey:"8hARSMgfuY2ykKws"
-      },
-      // 回调函数
-      success:function(res){
-        console.log(res);
+    console.log(this.data.load);
+    http.request({
+      url:'/classic/latest',
+      success:(res)=>{
+        console.log(res)
       }
     })
+    // wx.request({
+    //   // url也可以写为'http://bl.7yue.pro/v1/classic/latest?appkey=8hARSMgfuY2ykKws',
+    //   // 一般appkey写在header里
+    //   url:'http://bl.7yue.pro/v1/classic/latest',
+    //   header:{
+    //     appkey:"8hARSMgfuY2ykKws"
+    //   },
+    //   // 回调函数
+    //   success:(res)=>{
+    //     console.log(this.data.load);
+    //     console.log(res);
+    //   }
+    // })
   },
 
   /**
