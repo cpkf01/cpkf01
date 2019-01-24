@@ -17,6 +17,7 @@ class HTTP {
             success:(res)=>{
                 // startsWith
                 // endsWith
+                // 改状态码是数字,需要转一下字符串
                 let code = res.statusCode.toString();
 
                 if (code.startsWith('2')) {
@@ -31,3 +32,4 @@ class HTTP {
         })
     }
 }
+export {HTTP}
