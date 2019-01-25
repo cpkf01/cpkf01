@@ -36,7 +36,8 @@ class HTTP {
                 }
             },
             fail:(err)=>{
-
+                // 比如断网情况下会出现,我们默认给个1错误码
+                this._show_error(1)
             }
         })
     }
