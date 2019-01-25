@@ -1,1 +1,10 @@
-<like-cmp />
+<like-cmp like="{{classicData.like_status}}" count="{{classicData.fav_nums}}"/>
+<!-- content：期刊内容
+fav_nums: 点赞次数
+image: 图片
+index: 期号
+like_status: 是否点赞
+pubdate: 发布日期
+title: 期刊题目
+type: 期刊类型,这里的类型分为:100 电影 200 音乐 300 句子
+id: 期刊在数据中序号，供点赞使用 -->

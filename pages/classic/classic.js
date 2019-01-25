@@ -15,7 +15,11 @@ Page({
    */
   onLoad: function (options) {
     // 
-    classic.getLatest((res)=>{})
+    classic.getLatest((res)=>{
+      this.setData({
+        classicData:res
+      })
+    })
     // console.log(this.data.load);
     // http.request({
     //   url:'classic/latest',
