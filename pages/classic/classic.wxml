@@ -1,4 +1,5 @@
 <like-cmp like="{{classicData.like_status}}" count="{{classicData.fav_nums}}"/>
+<movie-cmp img="{{classicData.image}}" content="{{classicData.content}}"/>
 <!-- content：期刊内容
 fav_nums: 点赞次数
 image: 图片

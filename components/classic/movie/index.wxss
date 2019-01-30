@@ -1,0 +1,28 @@
+/* components/classic/movie/index.wxss */
+.class-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+/* 打图片的样式 */
+.classic-img{
+    height:500rpx ;
+    width: 750rpx;
+}
+
+
+/* 电影小图片的样式 */
+.class-tag{
+    width: 46rpx;
+    height: 142rpx;
+    position: relative;
+    right: 310rpx;
+    bottom: 58rpx
+}
+
+/* 文字样式 */
+.class-content{
+font-size: 36rpx;
+max-width: 510rpx;
+}

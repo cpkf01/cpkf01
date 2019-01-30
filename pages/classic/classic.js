@@ -16,9 +16,11 @@ Page({
   onLoad: function (options) {
     // 
     classic.getLatest((res)=>{
+      // 数据更新
       this.setData({
         classicData:res
       })
+      console.log(this.data)
     })
     // console.log(this.data.load);
     // http.request({
